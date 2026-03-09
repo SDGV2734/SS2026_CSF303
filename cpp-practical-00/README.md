@@ -25,12 +25,14 @@ int studentNumber = 2230299;
 cout << "Name: " << fullName << endl;
 cout << "Student No: " << studentNumber << endl;
 ```
+[View Code](Q1.cpp)
 
 **Output:**
 
 ![Alt text](images/image1.png)
 
-## Q2: Sum of Digits & Even/Odd Check 
+
+## Q2: Sum of Digits & Even/Odd Check
 
 **Description:**  
 Calculating the sum of all digits in the student number and determining if the number is even or odd.
@@ -51,12 +53,13 @@ while (studentNumber > 0) {
     studentNumber /= 10;        // Remove last digit
 }
 ```
+[View Code](Q2.cpp)
 
 **Output:**
 
 ![Alt text](images/image2.png)
 
----
+
 
 ## Q3: String Manipulation
 
@@ -79,6 +82,7 @@ transform(upper.begin(), upper.end(), upper.begin(), ::toupper);
 string lower = fullName;
 transform(lower.begin(), lower.end(), lower.begin(), ::tolower);
 ```
+[View Code](Q3.cpp)
 
 **Output:**
 
@@ -104,10 +108,12 @@ getline(cin, name);
 
 int yearOfBirth = currentYear - age;
 ```
+[View Code](Q4.cpp)
 
 **Output:**
 
 ![alt text](images/image4.png)
+
 
 ## Q5: Grade Assignment & PASS/FAIL Result
 
@@ -128,12 +134,12 @@ if (mark < 0 || mark > 100) {
     return 1;
 }
 ```
+[View Code](Q5.cpp)
 
 **Output:**
 
 ![alt text](images/image5.png)
 
----
 
 ## Q6: String Repetition & Pattern Generation
 
@@ -155,12 +161,13 @@ for (int i = 0; i < firstNameLen; i++) {
     cout << firstName << endl;
 }
 ```
+[View Code](Q6.cpp)
 
 **Output:**
 
 ![alt text](images/image6.png)
 
----
+
 
 ## Q7: Array Statistics & Analysis
 
@@ -181,12 +188,13 @@ int sonam_marks[5] = {85, 72, 90, 65, 78};
 int highest = sonam_marks[0];
 int lowest = sonam_marks[0];
 ```
+[View Code](Q7.cpp)
 
 **Output:**
 
 ![alt text](images/image7.png)
 
----
+
 
 ## Q8: Prime Numbers & Digit Sum Analysis
 
@@ -210,12 +218,13 @@ bool isPrime(int n) {
     return true;
 }
 ```
+[View Code](Q8.cpp)
 
 **Output:**
 
 ![alt text](images/image8.png)
 
----
+
 
 ## Q9: Vector Operations & Sorting
 
@@ -239,12 +248,13 @@ for (int i = 0; i < 6; i++) {
     v20240101.push_back(input);
 }
 ```
+[View Code](Q9.cpp)
 
 **Output:**
 
 ![alt text](images/image9.png)
 
----
+
 
 ## Q10: Student Class & Object-Oriented Programming
 
@@ -276,12 +286,13 @@ public:
     }
 };
 ```
+[View Code](Q10.cpp)
 
 **Output:**
 
 ![alt text](images/image10.png)
 
----
+
 
 ## Summary
 
